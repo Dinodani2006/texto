@@ -1,0 +1,9 @@
+function setup() {
+    createCanvas(300,300);
+    background(180);
+}
+function draw() {
+    var texto = " hola mundo ";
+    textSize(60);
+    text( texto , 10, 10, 300, 300);
+}
